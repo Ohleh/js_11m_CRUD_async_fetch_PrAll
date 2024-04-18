@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <h3>fetch syntax</h3>
+    <button type="button" class="buttonGet">GET</button>
+    <form action="" class="formCreate">
+      <input type="text" class="title" />
+      <input type="text" class="body" />
+      <button type="submit" class="btnSbmt">POST</button>
+    </form>
+    <form action="" class="formUpdate">
+      <input type="text" class="titleUpdate" />
+      <input type="text" class="bodyUpdate" />
+      <button type="submit" class="btnSbmt">PUT</button>
+    </form>
+    <form action="" class="userDelete">
+      <input type="number" class="userId" />
+      <button type="submit" class="btnSbmt">DELETE</button>
+    </form>
+    <h3>async/await syntax</h3>
+    <form action="" class="formCreateAs">
+      <input type="text" class="titleAs" />
+      <input type="text" class="bodyAs" />
+      <button type="submit" class="btnSbmtAs">POST</button>
+    </form>
+    <form action="" class="formPatch">
+      <input type="text" class="titlePatch" />
+      <input type="text" class="bodyPatch" />
+      <button type="submit" class="btnSbmt">PATCH</button>
+    </form>
+    <ul class="listRender"></ul>
+    <script src="index.js" type="module"></script>
+    <script src="indexAsync.js" type="module"></script>
+    <script src="indexPromiceAll.js" type="module"></script>
+  </body>
+</html>
